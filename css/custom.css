@@ -4,3 +4,7 @@
     --apricot: #CA9789;
     --lightapricot: #EACCB8;
 }
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
