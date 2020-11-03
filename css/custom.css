@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Fira Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 .bg-red {
@@ -24,4 +24,30 @@ body {
 
 .bg-beige {
     background-color: var(--beige);
+}
+
+.navbar-beige a {
+    color: var(--beige);
+}
+
+.navbar-beige:hover a {
+    color: var(--beige);
+}
+
+
+
+
+
+
+
+.lightapricot {
+    color: var(--lightapricot);
+}
+
+.apricot {
+    color: var(--apricot);
+}
+
+.red {
+    color: var(--red);
 }
