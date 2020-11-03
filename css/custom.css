@@ -1,11 +1,27 @@
-:root{
+:root {
     --red: #C53C15;
-    --beige: #F1E8E3;
     --apricot: #CA9789;
     --lightapricot: #EACCB8;
+    --beige: #F1E8E3;
 }
 
-body{
+body {
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+
+.bg-apricot {
+    background-color: var(--apricot);
+}
+
+.bg-lightapricot {
+    background-color: var(--lightapricot);
+}
+
+.bg-beige {
+    background-color: var(--beige);
 }
