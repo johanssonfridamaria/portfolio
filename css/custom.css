@@ -26,28 +26,16 @@ body {
     background-color: var(--beige);
 }
 
-.navbar-beige a {
+
+.navbar a {
     color: var(--beige);
 }
 
-.navbar-beige:hover a {
+.navbar:hover a {
     color: var(--beige);
 }
 
 
-
-
-
-
-
-.lightapricot {
-    color: var(--lightapricot);
-}
-
-.apricot {
-    color: var(--apricot);
-}
-
-.red {
-    color: var(--red);
+.footer a,p{
+    color: var(--lightapricot)
 }
