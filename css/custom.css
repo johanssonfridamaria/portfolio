@@ -14,40 +14,6 @@ h5, h3{
     color: var(--red);
 }
 
-.text-box p{
-    color: var(--apricot)
-}
-
-.bg-red {
-    background-color: var(--red);
-}
-
-.bg-apricot {
-    background-color: var(--apricot);
-}
-
-.bg-lightapricot {
-    background-color: var(--lightapricot);
-}
-
-.bg-beige {
-    background-color: var(--beige);
-}
-
-
-.navbar a {
-    color: var(--beige);
-}
-
-.navbar:hover a {
-    color: var(--beige);
-}
-
-
-.footer a,p{
-    color: var(--lightapricot)
-}
-
 .btn-red {
     color: #fff;
     background-color: var(--red);
@@ -66,3 +32,40 @@ h5, h3{
     border-color: #0062cc;
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
   }
+
+.bg-red {
+    background-color: var(--red);
+}
+
+.bg-apricot {
+    background-color: var(--apricot);
+}
+
+.bg-lightapricot {
+    background-color: var(--lightapricot);
+}
+
+.bg-beige {
+    background-color: var(--beige);
+}
+
+.navbar a {
+    color: var(--beige);
+}
+
+.navbar:hover a {
+    color: var(--beige);
+}
+
+.text-box p{
+    color: var(--apricot)
+}
+
+.image img{
+    width: 100%;
+}
+
+.footer a,p{
+    color: var(--lightapricot)
+}
+
