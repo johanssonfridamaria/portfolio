@@ -18,8 +18,8 @@
 <body>
 
     <!-- Header starts -->
-    <nav class="navbar justify-content-between bg-apricot" id="top">
-        <a class="navbar-brand font-weight-bold h4 mb-0" href="/index.html">Frida Johansson</a>
+    <nav class="navbar justify-content-between bg-apricot px-4" id="top">
+        <a class="navbar-brand font-weight-bold mb-0" href="/index.html">Frida Johansson</a>
         <div class="navbar-nav hide">
             <a class="nav-link text-uppercase" href="/index.html">Home</a>
             <a class="nav-link text-uppercase" href="#about">About</a>
@@ -63,14 +63,19 @@
     <!-- About page starts -->
     <section class="row bg-beige py-5" id="about">
         <div class="row container mx-auto">
-            <h3 class="font-weight-bold">ABOUT</h3>
-            <div class="row">
-                <div class="pt-4 mb-5 col-md-6">
-                    <div class="image bg-red py-4 px-2 col-6 mx-md-auto">
+            <div class="col-12 mb-5">
+                <div class="d-flex flex-row align-items-center justify-content-center">
+                    <h2>01</h2>
+                    <h3 class="headline ml-5 position">| ABOUT</h3>
+                </div>
+            </div>
+            <div class="row mx-auto">
+                <div class="mb-4 col-12 col-md-6 mx-auto">
+                    <div class="image bg-red py-4 col-6 mx-auto">
                         <img src="./images/2020-09-20-042257406_resized_20200924_012929340.jpg" alt="Frida">
                     </div>
                 </div>
-                <div class="pt-4 mb-5 col-md-6 d-flex align-items-center">
+                <div class="mt-4 col-10 col-md-6 mx-auto d-flex align-items-center">
                     <div>
                         <h5>Excepteur sint occaeuiecat cupidatat.</h5>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
@@ -95,44 +100,45 @@
 
     <section class="row py-5" id="skills">
         <div class="row container mx-auto">
-            <h3 class="font-weight-bold">SKILLS</h3>
+            <div class="col-12 mb-5">
+                <div class="d-flex flex-row align-items-center justify-content-center">
+                    <h2>02</h2>
+                    <h3 class="headline ml-5 position">| SKILLS</h3>
+                </div>
+            </div>
             <div class="row">
-                <div class="pt-4 mb-5 col-md-6">
-                    <div>
+                <div class="col-10 col-md-4 mb-5 text-center">
                         <h5>CODE</h5>
-                        <ul class="row row-cols-2 row-cols-md-3">
-                            <li>Javascript</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Node</li>
-                            <li>C#</li>
+                        <ul class="list">
+                            <li class="list-item">Javascript</li>
+                            <li class="list-item">HTML</li>
+                            <li class="list-item">CSS</li>
+                            <li class="list-item">Node.js</li>
+                            <li class="list-item">C#</li>
                         </ul>
-                    </div>
                 </div>
-                <div class="pt-4 mb-5 col-md-6">
-                    <div>
+                <div class="col-10 col-md-4 mb-5 text-center">
                         <h5>TOOLS</h5>
-                        <ul class="row row-cols-2 row-cols-md-3">
-                            <li>Visual studio code</li>
-                            <li>Visual studio 2019</li>
-                            <li>Abode XD</li>
-                            <li>GitHub</li>
-                            <li>Git</li>
-                            <li>MongoDB</li>
-                            <li>Express js</li>
-                            <li>Adobe Illustrator</li>
+                        <ul class="list">
+                            <li class="list-item">GitHub</li>
+                            <li class="list-item">VS Code</li>
+                            <li class="list-item">VS 2019</li>
+                            <li class="list-item">Abode XD</li>
+                            <li class="list-item">Git</li>
+                            <li class="list-item">MongoDB</li>
+                            <li class="list-item">Express</li>
+                            <li class="list-item">Netlify</li>
+                            <li class="list-item">Postman</li>
+                            <li class="list-item">Adobe Illustrator</li>
                         </ul>
-                    </div>
                 </div>
-                <div class="pt-4 mb-5 col-md-6">
-                    <div>
+                <div class="col-10 col-md-4 text-center">
                         <h5>UPCOMING</h5>
-                        <ul class="row row-cols-2 row-cols-md-3">
-                            <li>React</li>
-                            <li>Vue</li>
-                            <li>Trello</li>
+                        <ul class="list">
+                            <li class="list-item">React</li>
+                            <li class="list-item">Vue</li>
+                            <li class="list-item">Trello</li>
                         </ul>
-                    </div>
                 </div>
                 <div class="col-12 d-flex justify-content-end">
                     <a class="btn btn-fixed" href="#projects"><i class="fas fa-arrow-down arrow-icon"></i></a>
@@ -146,7 +152,12 @@
     <!-- Project page starts -->
     <section class="row bg-beige py-5" id="projects">
         <div class="row container mx-auto">
-            <h3 class="font-weight-bold">PROJECTS</h3>
+            <div class="col-12 mb-5">
+                <div class="d-flex flex-column flex-md-row align-items-center justify-content-center">
+                    <h2>03</h2>
+                    <h3 class="headline ml-4 position">| PROJECTS</h3>
+                </div>
+            </div>
             <div class="row">
                 <div class="pt-4 mb-5 col-md-6">
                     <div class="py-4 px-2 col-6 mx-md-auto">
@@ -165,20 +176,11 @@
                                 class="btn btn-red">GITHUB REPOSITORY</a>
                         </div>
                     </div>
-
-
-                    <div class="text-box">
-                        <h5 class="">FRIDA JOHANSSON</h5>
-                        <h3 class="text-bold">JUNIOR FRONTEND DEVELOPER</h3>
-                        <p>Hi, I'm Frida a newly graduated coder with a curious and creative mind!</p>
-                        <button class="btn btn-red">DOWNLOAD RESUMÉ</button>
-                    </div>
                 </div>
                 <div class="col-12 d-flex justify-content-end">
-                    <a class="btn btn-fixed" href="#contact"><i class="fas fa-arrow-down arrow-icon"></i></a>
+                    <a class="btn btn-fixed" href="#projects"><i class="fas fa-arrow-down arrow-icon"></i></a>
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- Project page ends -->
@@ -186,8 +188,11 @@
     <!-- contact page starts -->
     <section class="row py-5" id="contact">
         <div class="row container mx-auto">
-            <div class="col-12">
-                <h3 class="font-weight-bold">CONTACT ME</h3>
+            <div class="col-12 mb-5">
+                <div class="d-flex flex-row align-items-center justify-content-center">
+                    <h2>04</h2>
+                    <h3 class="headline ml-5 position">| CONTACT</h3>
+                </div>
             </div>
             <div class="row justify-content-center mx-auto">
                 <div class="pt-4 mb-5 text-box d-flex flex-column align-items-center col-8">
