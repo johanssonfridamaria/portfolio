@@ -61,11 +61,15 @@ h2, h3, h5 {
     background-color: var(--beige);
 }
 
-.navbar a {
+.navbar-brand{
     color: var(--beige);
 }
 
-.navbar:hover a {
+.navbar-nav a {
+    color: #fff;
+}
+
+.navbar-nav a:hover {
     color: var(--beige);
 }
 
