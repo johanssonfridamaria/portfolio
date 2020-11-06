@@ -20,6 +20,13 @@ h2, h3, h5 {
     color: var(--red);
 }
 
+
+.intro-text{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .btn-red {
     color: #fff;
     background-color: var(--red);
