@@ -21,7 +21,6 @@ h2, h3, h5 {
     margin-bottom: 1rem;
 }
 
-
 .intro-text{
     top: 50%;
     left: 50%;
@@ -57,19 +56,31 @@ h2, h3, h5 {
     box-shadow: none;
 }
 
-.fas {
+.arrow-icon {
     color: var(--red);
     font-size: 1.5rem;
 }
 
-.fas:hover {
+.arrow-icon:hover {
     color: var(--red);
 }
 
-.fas:focus {
+.arrow-icon:focus {
     color: var(--red);
 }
 
+.fa-bars {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.fa-bars:hover {
+    color: var(--beige);
+}
+
+.fa-bars:focus {
+    color: var(--beige);
+}
 
 .bg-red {
     background-color: var(--red);
@@ -107,6 +118,15 @@ h2, h3, h5 {
     color: var(--beige);
 }
 
+.navbar-nav {
+    order: 3;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-items: flex-start;
+    z-index: 1000;
+}
+
 .image img {
     width: 100%;
 }
@@ -117,4 +137,27 @@ h2, h3, h5 {
 
 .hide {
     display: none;
+}
+
+@media (min-width:768px) {
+    .menu-btn {
+        display: none;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        order: 0;
+        width: fit-content;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .nav-link {
+        margin-left: 1.5rem;
+    }
+
+    .navbar {
+        flex-direction: row;
+    }
 }
