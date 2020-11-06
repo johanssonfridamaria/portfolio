@@ -10,6 +10,12 @@ body {
     /* font-family: 'Roboto', sans-serif; */
 }
 
+.hide {
+    display: none;
+}
+
+/* HEADINGS */
+
 h1 {
     color: var(--beige);
     font-size: 10rem;
@@ -36,15 +42,7 @@ h3, h5 {
     margin-bottom: 1rem;
 }
 
-.intro-text {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.text-box p {
-    color: var(--apricot)
-}
+/* BUTTONS */
 
 .btn-red {
     color: #fff;
@@ -97,6 +95,8 @@ h3, h5 {
     color: var(--beige);
 }
 
+/* BACKGROUNDS */
+
 .bg-red {
     background-color: var(--red);
 }
@@ -113,11 +113,13 @@ h3, h5 {
     background-color: var(--beige);
 }
 
+/* NAVBAR */
+
 .navbar {
     width: 100%;
 }
 
-.navbar-brand{
+.navbar-brand {
     color: var(--beige);
     font-size: 1.5rem;
 }
@@ -126,7 +128,7 @@ h3, h5 {
     color: var(--beige);
 }
 
-.nav-link{
+.nav-link {
     color: #fff;
 }
 
@@ -143,17 +145,25 @@ h3, h5 {
     z-index: 1000;
 }
 
+/* LANDINGPAGE */
+
+.intro-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-box p {
+    color: var(--apricot)
+}
+
+/* ABOUT PAGE */
+
 .image img {
     width: 100%;
 }
 
-.footer a, p {
-    color: var(--lightapricot)
-}
-
-.hide {
-    display: none;
-}
+/* SKILLS PAGE */
 
 .list {
     list-style-type: none;
@@ -164,7 +174,13 @@ h3, h5 {
 .list-item {
     color: var(--apricot);
     font-size: 1rem;
-    padding-bottom:0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+/* FOOTER */
+
+.footer a, p {
+    color: var(--lightapricot)
 }
 
 @media (min-width:768px) {
