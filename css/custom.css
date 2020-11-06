@@ -87,6 +87,10 @@ h2, h3, h5 {
     background-color: var(--beige);
 }
 
+.navbar{
+    width: 100%;
+}
+
 .navbar-brand {
     color: var(--beige);
 }
@@ -103,12 +107,14 @@ h2, h3, h5 {
     color: var(--beige);
 }
 
-
-
 .image img {
     width: 100%;
 }
 
 .footer a, p {
     color: var(--lightapricot)
+}
+
+.hide {
+    display: none;
 }
