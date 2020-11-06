@@ -10,6 +10,13 @@ body {
     /* font-family: 'Roboto', sans-serif; */
 }
 
+h1{
+
+}
+
+h4{
+
+}
 
 h2, h3, h5 {
     color: var(--red);
@@ -62,6 +69,9 @@ h2, h3, h5 {
 }
 
 .navbar-brand{
+    color: var(--beige);
+}
+.navbar-brand:hover{
     color: var(--beige);
 }
 
