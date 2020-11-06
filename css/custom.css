@@ -6,8 +6,7 @@
 }
 
 body {
-    font-family: 'Fira Sans', sans-serif;
-    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto', sans-serif;
 }
 
 .hide {
@@ -15,6 +14,10 @@ body {
 }
 
 /* HEADINGS */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fira Sans', sans-serif;
+}
 
 h1 {
     color: var(--beige);
@@ -30,6 +33,10 @@ h2 {
     font-weight: bold;
 }
 
+h3{
+    font-size: 2rem;
+}
+
 .headline {
     color: var(--red);
     font-size: 3rem;
@@ -37,7 +44,7 @@ h2 {
     font-weight: 500;
 }
 
-h3, h5 {
+h3, h4, h5,h6 {
     color: var(--red);
     margin-bottom: 1rem;
 }
@@ -154,7 +161,8 @@ h3, h5 {
 }
 
 .text-box p {
-    color: var(--apricot)
+    color: green;
+    font-size: 1.2rem;
 }
 
 /* ABOUT PAGE */
