@@ -160,4 +160,8 @@ h2, h3, h5 {
     .navbar {
         flex-direction: row;
     }
+
+    .intro-text{
+        left: 60%;
+    }
 }
