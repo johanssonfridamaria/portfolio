@@ -119,18 +119,18 @@ h3, h5 {
 
 .navbar-brand{
     color: var(--beige);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .navbar-brand:hover {
     color: var(--beige);
 }
 
-.navbar-nav a {
+.nav-link{
     color: #fff;
 }
 
-.navbar-nav a:hover {
+.nav-link:hover {
     color: var(--beige);
 }
 
