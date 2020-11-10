@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     color: var(--apricot);
-    font-size: 6rem;
+    font-size: 4rem;
     opacity: 25%;
     margin-bottom: 0;
     font-weight: bold;
@@ -31,7 +31,7 @@ h1 {
 
 h2 {
     color: var(--apricot);
-    font-size: 6rem;
+    font-size: 4rem;
     opacity: 25%;
     margin-bottom: 0;
     font-weight: bold;
@@ -43,9 +43,10 @@ h3 {
 
 .headline {
     color: var(--red);
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0;
     font-weight: 500;
+    margin-left: 1.75rem;
 }
 
 h3, h4, h5, h6 {
@@ -269,5 +270,18 @@ h3, h4, h5, h6 {
     }
     .intro-text {
         left: 60%;
+    }
+
+    h1 {
+        font-size: 8rem;
+    }
+    
+    h2 {
+        font-size: 6rem;
+    }
+    
+    .headline {
+        font-size: 3rem;
+        margin-left: 2rem;
     }
 }
