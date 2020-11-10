@@ -140,18 +140,20 @@ h3, h4, h5, h6 {
 .navbar-brand {
     color: var(--beige);
     font-size: 1.5rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
 }
 
 .navbar-brand:hover {
-    color: var(--beige);
+    color: var(--lightapricot);
 }
 
 .nav-link {
-    color: #fff;
+    color: var(--beige);
 }
 
 .nav-link:hover {
-    color: var(--beige);
+    color: var(--lightapricot);
 }
 
 .navbar-nav {
