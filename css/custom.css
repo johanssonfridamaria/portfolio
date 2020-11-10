@@ -88,11 +88,11 @@ h3, h4, h5, h6 {
 }
 
 .arrow-icon:hover {
-    color: var(--red);
+    color:  var(--darkred);
 }
 
 .arrow-icon:focus {
-    color: var(--red);
+    color:  var(--darkred);
 }
 
 .fa-bars {
