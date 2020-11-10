@@ -55,7 +55,7 @@ h3, h4, h5, h6 {
 }
 
 .text-box a {
-    color: var(--beige);
+    color: var(--apricot);
     font-size: 1.2rem;
     font-weight: normal;
 }
@@ -204,7 +204,7 @@ h3, h4, h5, h6 {
 /* PROJECTS */
 .card{
     background-color: transparent;
-    border: 1px solid var(--beige);
+    border: 1px solid transparent;
     border-radius: 0rem;
 }
 
