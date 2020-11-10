@@ -67,15 +67,15 @@ h3, h4, h5, h6 {
 
 .btn-red:hover {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: var(--darkred);
+    border-color:  var(--darkred);
 }
 
 .btn-red:focus {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
-    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+    background-color:  var(--darkred)9;
+    border-color: var(--darkred);
+    box-shadow: 0 0 0 0.2rem  var(--darkred);
 }
 
 .btn:focus {
