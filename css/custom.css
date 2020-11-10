@@ -54,15 +54,16 @@ h3, h4, h5, h6 {
     font-size: 1.2rem;
 }
 
-.text-box a {
+.contact-link {
     color: var(--apricot);
     font-size: 1.2rem;
     font-weight: normal;
 }
-
-.text-box a:focus {
-    color: var(--apricot);
+.contact-link:hover {
+    color: var(--red);
     font-size: 1.2rem;
+    font-weight: normal;
+    text-decoration: none;
 }
 
 /* BUTTONS */
@@ -206,6 +207,9 @@ h3, h4, h5, h6 {
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: 0rem;
+}
+.card-link{
+    color: var(--red);
 }
 
 /* CONTACT SECTION */
