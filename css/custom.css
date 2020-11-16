@@ -250,7 +250,7 @@ h3, h4, h5, h6 {
     color: var(--lightapricot)
 }
 
-@media (min-width:768px) {
+@media (min-width:992px) {
     .menu-btn {
         display: none;
     }
