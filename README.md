@@ -2,6 +2,6 @@
 My own portfolio site to show my projects and previous experiences. 
 
 ## Tech used: 
-HTML, CSS & Javascript
+HTML, CSS & Javascript, Bootstrap 
 
-### View it here: https://zen-allen-c87019.netlify.app/
+### View it here: https://fridajohansson.netlify.app/
